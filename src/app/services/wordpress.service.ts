@@ -7,8 +7,8 @@ import { map } from 'rxjs/operators';
   providedIn: "root",
 })
 export class WordpressService {
-  url = `https://www.wppourlesnuls.com/wp-json/wp/v2/`;
-  apiUrl = `https://www.wppourlesnuls.com/wp-json`;
+  url = `http://localhost/Site_WordPress/Test-Api/wordpress/wp-json/wp/v2/`;
+  apiUrl = `http://localhost/Site_WordPress/Test-Api/wordpress/wp-json`;
   totalPosts = null;
   pages: any;
 
